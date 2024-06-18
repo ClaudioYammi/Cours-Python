@@ -136,12 +136,19 @@
 // }
 
 
-$taona = "antitra" ;
+// $taona = "antitra" ;
 
-$taona = ( $taona ==="antitra" ) ? " mety efa antitra " : " mbola tanora " ;
+// $taona = ( $taona ==="antitra" ) ? " mety efa antitra " : " mbola tanora " ;
 
 
 echo $taona ; 
+
+$user = ["Claudio", "Ratovondriaka" ,"fsdfsdfe" ,032541];
+
+echo $user[0];
+echo $user[1];
+echo $user[2];
+echo $user[3];
 
 
 
