@@ -43,4 +43,17 @@
 # print(f"vous manger une {liste[0]}")
 
 # print(f"votre chiffre "+str(chiffre))
+# for i in range(10):
+#     print("voasazy")
 
+
+liste = ["tomate","banane"]
+print(liste)
+liste.append("tomate")
+print(liste)
+liste.sort()
+print(liste)
+
+del liste[2]
+
+print(liste)
