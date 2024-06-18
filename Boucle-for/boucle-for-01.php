@@ -34,8 +34,8 @@
 // echo "le nombre est de ".$result." et aussi ".$result2;
 
 
-$note = true;
-$cuisine = false;
+$note = false;
+$cuisine = true;
 
 // if ($note === false) {
 //     echo 'note correcte';
@@ -51,15 +51,13 @@ $cuisine = false;
 //     echo "je ne sais pas";
 // }
 
-if($note && $cuisine) {
+if($note || $cuisine) {
     echo "Tout les deux son oke";
-} elseif($note) {
-    echo "Seul la note est oke";
-} elseif($cuisine) {
-    echo "seul la cuisine";
 } else {
-    echo "tout les 2 ne sont pas oke";
-}                                                          
+    echo "il ne son pas tous oke";
+}                
+
+
 
 
 

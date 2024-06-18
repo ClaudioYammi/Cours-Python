@@ -28,6 +28,16 @@
 # phrase = "Python c'est génial"
 # boolean = True
 
+# for h in range(6):
+#     print(h)
 liste = ["Pomme","Jarrete"]
 
 print (liste[0], liste[1])
+
+u = 4 
+p = 5
+
+sushi =( u * p )-p
+
+print(sushi)
+
