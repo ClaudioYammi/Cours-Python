@@ -30,14 +30,17 @@
 
 # for h in range(6):
 #     print(h)
-liste = ["Pomme","Jarrete"]
+# liste = ["Pomme","Jarrete","Christophine"]
+# food = "fruit"
+# chiffre = 12
+# print(liste[0])
 
-print (liste[0], liste[1])
+# print(f"vous manger une {liste[0]}")
+# liste[0]="Banane"
 
-u = 4 
-p = 5
+# print(liste[0])
 
-sushi =( u * p )-p
+# print(f"vous manger une {liste[0]}")
 
-print(sushi)
+# print(f"votre chiffre "+str(chiffre))
 

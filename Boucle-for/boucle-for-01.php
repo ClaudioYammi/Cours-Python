@@ -51,19 +51,21 @@ $cuisine = true;
 //     echo "je ne sais pas";
 // }
 
-if($note || $cuisine) {
-    echo "Tout les deux son oke";
-} else {
-    echo "il ne son pas tous oke";
-}                
+// if($note || $cuisine) {
+//     echo "Tout les deux son oke";
+// } else {
+//     echo "il ne son pas tous oke";
+// }                
 
+// $r = ["Pomme", "Tommate","Fruit de mere"];
+// $i = 45;
+// echo $r[0];
 
+// $r[0]="Patate";
 
+// echo $r[0];
 
-
-
-
-
+// echo "vous avez consommer ".$i." kg de ".$r[0];
 
 
 
