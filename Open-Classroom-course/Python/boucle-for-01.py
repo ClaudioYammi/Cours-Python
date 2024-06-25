@@ -47,13 +47,26 @@
 #     print("voasazy")
 
 
-liste = ["tomate","banane"]
-print(liste)
-liste.append("tomate")
-print(liste)
-liste.sort()
-print(liste)
+# liste = ["tomate","banane"]
+# print(liste)
+# liste.append("tomate")
+# print(liste)
+# liste.sort()
+# print(liste)
 
-del liste[2]
+# del liste[2]
 
-print(liste)
+# print(liste)
+
+user1 = [ "Jean" , "rakotoarimanana" , "032"]
+user2 = [ "Luc" , "andrihamihaja" , "033"]
+user3 = [ "Sam" , "herver" , "036"]
+
+user = [user1, user2, user3]
+
+print(user[1][2])
+
+
+
+
+

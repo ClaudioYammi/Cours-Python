@@ -143,12 +143,13 @@
 
 echo $taona ; 
 
-$user = ["Claudio", "Ratovondriaka" ,"fsdfsdfe" ,032541];
+$user1 = ["Claudio", "Ratovondriaka" ,"rakotoarimanana" ,032541];
+$user2 = ["Mark", "Ratovondriaka" ,"andrihamihaja" ,032541];
+$user3 = ["Luc", "Ratovondriaka" ,"herver" ,032541];
 
-echo $user[0];
-echo $user[1];
-echo $user[2];
-echo $user[3];
+$user = [$user1, $user2, $user3];
+echo $user[0][2];
+
 
 
 
